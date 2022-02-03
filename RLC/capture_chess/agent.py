@@ -1,6 +1,7 @@
 from keras.models import Model, clone_model
 from keras.layers import Input, Conv2D, Dense, Reshape, Dot, Activation, Multiply
-from keras.optimizers import SGD
+# from keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD
 import numpy as np
 import keras.backend as K
 
